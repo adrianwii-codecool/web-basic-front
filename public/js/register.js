@@ -11,7 +11,7 @@ form.addEventListener('submit', function (e) {
 function setStudent(data) {
     fetch("http://localhost:8005/register",
         {
-            mode: 'no-cors',
+            // mode: 'no-cors',
             method: "POST",
             body: data
         })

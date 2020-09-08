@@ -1,4 +1,5 @@
 const container = document.querySelector(".container");
+const number = 10;
 
 function getStudents() {
     fetch(`http://localhost:8005/students`)
